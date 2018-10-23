@@ -3,7 +3,7 @@ var catButton = new Button("cat", 120, 10)
 
 function setup(){
     createCanvas(600,600)
-}
+    dogButton.draw()
+    catButton.draw()
 
-dogButton.draw()
-catButton.draw()
+}

@@ -8,4 +8,10 @@ class Button {
         console.log("x : " + x)
         console.log("y : " + y)
     }
+    draw(){
+        rect(this.x, this.y, 100, 30)
+
+        textAlign(CENTER)
+        text(this.label, this.x + 50, this.y + 20)
+    }
 }
